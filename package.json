@@ -1,0 +1,53 @@
+{
+  "name": "storefront-checks",
+  "version": "0.1.0",
+  "description": "Free, rules-based checks for e-commerce product pages: AI shopping readiness, Google Merchant Center compliance, store SEO audit and Shopify checkout deadlines. Node library, CLI and MCP server. No AI calls, nothing stored.",
+  "main": "index.js",
+  "bin": {
+    "storefront-checks": "bin/cli.js",
+    "storefront-checks-mcp": "bin/mcp.mjs"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "shopify",
+    "ecommerce",
+    "ai-shopping",
+    "chatgpt-shopping",
+    "google-merchant-center",
+    "structured-data",
+    "json-ld",
+    "product-schema",
+    "seo",
+    "gtin"
+  ],
+  "author": "Vladislav Gerasimchuk <contact@extensionsmarket.com> (https://extensionsmarket.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/VladSF415/storefront-checks#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladSF415/storefront-checks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VladSF415/storefront-checks/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "cheerio": "^1.2.0",
+    "zod": "^3.25.0"
+  }
+}
