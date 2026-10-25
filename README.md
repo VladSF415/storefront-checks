@@ -71,6 +71,8 @@ claude mcp add storefront-checks -- npx -y -p github:VladSF415/storefront-checks
 }
 ```
 
+**Docker:** `docker build -t storefront-checks . && docker run -i --rm storefront-checks` starts the same stdio server.
+
 Then ask something like "Check https://store.example/products/blue-mug for AI shopping readiness and tell me what to fix first."
 
 ## Use it as a library
