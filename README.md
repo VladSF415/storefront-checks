@@ -1,5 +1,7 @@
 # storefront-checks
 
+[![CI](https://github.com/VladSF415/storefront-checks/actions/workflows/ci.yml/badge.svg)](https://github.com/VladSF415/storefront-checks/actions/workflows/ci.yml) [![storefront-checks MCP server](https://glama.ai/mcp/servers/VladSF415/storefront-checks/badges/score.svg)](https://glama.ai/mcp/servers/VladSF415/storefront-checks)
+
 Free, rules-based checks for e-commerce product pages, as a Node library, a CLI and an MCP server.
 
 - **AI shopping readiness:** does a product page give ChatGPT, Google AI Mode, Perplexity and Copilot what they use to recommend it? Product structured data, price and stock, GTINs (with check digits), reviews in the markup, return and shipping terms, answers to buyer questions, and whether AI crawlers are allowed in.
